@@ -52,8 +52,9 @@
       <section id="home">
         <div class="intro-text">
           <div class="intro-heading text-uppercase">Andrew Kyungwon Park</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#about">More About Me</a>
-          <h2 class="pt-5">Contact Me
+        </div>
+        <div class="contact-me">
+          <h2 class="contact-me pt-10">Contact Me
             <br>
             <a href="tel:+15622298627">(562) 229-8627</a>
             <br>
@@ -63,7 +64,7 @@
       </section>
     </div>
   </header>
-  <section class="pt-50 pb-50" id="about">
+  <section class="pt-75 pb-75" id="about">
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
@@ -86,61 +87,61 @@
               meaningful contributor in the web development world for years to come.
             </p>
           </div>
-        </div>
-        <div class="col-lg-12">
-          <section id="services">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-12 text-center">
-                  <h3 class="section-heading text-uppercase">Skills</h3>
+          <div class="col-lg-12">
+            <section id="services">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-12 text-center">
+                    <h3 class="section-heading text-uppercase">Skills</h3>
+                  </div>
+                </div>
+                <div class="row text-center">
+                  <div class="col-md-3">
+                    <span class="fa-stack fa-4x">
+                      <img src="img/logos/html-logo.png" class="img-thumbnail border-0">
+                    </span>
+                    <h4 class="service-heading">HTML 5</h4>
+                  </div>
+                  <div class="col-md-3">
+                    <span class="fa-stack fa-4x">
+                      <img src="img/logos/css3-logo.png" class="img-thumbnail border-0">
+                    </span>
+                    <h4 class="service-heading">CSS 3</h4>
+                  </div>
+                  <div class="col-md-3">
+                    <span class="fa-stack fa-4x">
+                      <img src="img/logos/js-logo.png" class="img-thumbnail border-0">
+                    </span>
+                    <h4 class="service-heading">JavaScript (ES5 & ES6)</h4>
+                  </div>
+                  <div class="col-md-3">
+                    <span class="fa-stack fa-4x">
+                      <img src="img/logos/react-logo.png" class="img-thumbnail border-0">
+                    </span>
+                    <h4 class="service-heading">React.js</h4>
+                  </div>
+                  <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                      <img src="img/logos/nodejs-logo.png" class="img-thumbnail border-0">
+                    </span>
+                    <h4 class="service-heading">Node.js</h4>
+                  </div>
+                  <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                      <img src="img/logos/postgresql-logo.png" class="img-thumbnail border-0">
+                    </span>
+                    <h4 class="service-heading">PostgreSQL</h4>
+                  </div>
+                  <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                      <img src="img/logos/bootstrap-logo.png" class="img-thumbnail border-0">
+                    </span>
+                    <h4 class="service-heading">Bootstrap</h4>
+                  </div>
                 </div>
               </div>
-              <div class="row text-center">
-                <div class="col-md-3">
-                  <span class="fa-stack fa-4x">
-                    <img src="img/logos/html-logo.png" class="img-thumbnail border-0">
-                  </span>
-                  <h4 class="service-heading">HTML 5</h4>
-                </div>
-                <div class="col-md-3">
-                  <span class="fa-stack fa-4x">
-                    <img src="img/logos/css3-logo.png" class="img-thumbnail border-0">
-                  </span>
-                  <h4 class="service-heading">CSS 3</h4>
-                </div>
-                <div class="col-md-3">
-                  <span class="fa-stack fa-4x">
-                    <img src="img/logos/js-logo.png" class="img-thumbnail border-0">
-                  </span>
-                  <h4 class="service-heading">JavaScript (ES5 & ES6)</h4>
-                </div>
-                <div class="col-md-3">
-                  <span class="fa-stack fa-4x">
-                    <img src="img/logos/react-logo.png" class="img-thumbnail border-0">
-                  </span>
-                  <h4 class="service-heading">React.js</h4>
-                </div>
-                <div class="col-md-4">
-                  <span class="fa-stack fa-4x">
-                    <img src="img/logos/nodejs-logo.png" class="img-thumbnail border-0">
-                  </span>
-                  <h4 class="service-heading">Node.js</h4>
-                </div>
-                <div class="col-md-4">
-                  <span class="fa-stack fa-4x">
-                    <img src="img/logos/postgresql-logo.png" class="img-thumbnail border-0">
-                  </span>
-                  <h4 class="service-heading">PostgreSQL</h4>
-                </div>
-                <div class="col-md-4">
-                  <span class="fa-stack fa-4x">
-                    <img src="img/logos/bootstrap-logo.png" class="img-thumbnail border-0">
-                  </span>
-                  <h4 class="service-heading">Bootstrap</h4>
-                </div>
-              </div>
-            </div>
-          </section>
+            </section>
+          </div>
         </div>
       </div>
     </div>
@@ -161,12 +162,14 @@
             <p class="text-muted">Full-Stack HR Web Application</p>
             <ul class="list-inline">
               <li class="list-inline-item">
-                <a class="links" href="https://github.com/andrewkyungwonpark/hr-buddy" target="_blank">
+                <a class="links btn btn-primary" role="button" href="https://github.com/andrewkyungwonpark/hr-buddy"
+                  target="_blank">
                   GitHub
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="links" href="https://hr-buddy.andrewkpark.com" target="_blank">
+                <a class="links btn btn-secondary" role="button" href="https://hr-buddy.andrewkpark.com"
+                  target="_blank">
                   Live Site
                 </a>
               </li>
@@ -180,12 +183,14 @@
             <p class="text-muted">Front-End Web Application</p>
             <ul class="list-inline">
               <li class="list-inline-item">
-                <a class="links" href="https://github.com/andrewkyungwonpark/drive-n-kicks" target="_blank">
+                <a class="links btn btn-primary" href="https://github.com/andrewkyungwonpark/drive-n-kicks"
+                  target="_blank">
                   GitHub
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="links" href="https://andrewkyungwonpark.github.io/drive-n-kicks/" target="_blank">
+                <a class="links btn btn-secondary" href="https://andrewkyungwonpark.github.io/drive-n-kicks/"
+                  target="_blank">
                   Live Site
                 </a>
               </li>
@@ -199,12 +204,13 @@
             <p class="text-muted">Full-Stack E-Commerce Site</p>
             <ul class="list-inline">
               <li class="list-inline-item">
-                <a class="links" href="https://github.com/andrewkyungwonpark/lakers-store" target="_blank">
+                <a class="links btn btn-primary" href="https://github.com/andrewkyungwonpark/lakers-store"
+                  target="_blank">
                   GitHub
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="links" href="https://lakers-store.andrewkpark.com" target="_blank">
+                <a class="links btn btn-secondary" href="https://lakers-store.andrewkpark.com" target="_blank">
                   Live Site
                 </a>
               </li>
