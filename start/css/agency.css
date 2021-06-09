@@ -605,6 +605,19 @@ header.masthead .intro-text .intro-heading {
   margin-top: 0;
 }
 
+.links {
+  color: white;
+}
+
+.btn-git {
+  background-color: blue;
+}
+
+.links:hover {
+  background-color: #fed136;
+  color: black;
+}
+
 section#contact {
   background-color: #212529;
   background-image: url("../img/map-image.png");
@@ -703,4 +716,18 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
+}
+
+.linkedin {
+  background-image: url(../img/logos/linkedin.png);
+  object-fit: contain;
+  height: 50px;
+  width: 50px;
+}
+
+.github {
+  background-image: url(../img/logos/github.png);
+  object-fit: contain;
+  height: 50px;
+  width: 50px;
 }
