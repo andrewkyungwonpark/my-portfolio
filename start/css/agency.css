@@ -195,7 +195,10 @@ h2.a {
 }
 
 .contact-me {
-  margin-top: 20px;
+position: relative;
+top: 1.5rem;
+margin-top: 2rem;
+padding-top: 2rem;
 }
 
 .intro-text {
